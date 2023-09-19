@@ -12,6 +12,8 @@ public enum DNAcombinations {
     private String mergeResult;
 
     DNAcombinations(String strValue, String mergeResult) {
+        this.strValue = strValue;
+        this.mergeResult = mergeResult;
     }
 
     public String getStrValue() {
@@ -20,5 +22,14 @@ public enum DNAcombinations {
 
     public String getMergeResult() {
         return mergeResult;
+    }
+
+    public static DNAcombinations fromString(String input) {
+        for (DNAcombinations combination : DNAcombinations.values()) {
+            if (combination.strValue.equals(input)) {
+                return combination;
+            }
+        }
+        throw new IllegalArgumentException("Invalid DNA combination: " + input);
     }
 }

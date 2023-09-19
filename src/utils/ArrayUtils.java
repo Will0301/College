@@ -4,10 +4,10 @@ import java.util.Random;
 
 public class ArrayUtils {
 
-    public static void print(int[] variavelArray) {
+    public static void print(String[] variavelArray) {
         System.out.printf("[");
         for (int i = 0; i < variavelArray.length; i++) {
-            System.out.printf(" %d ", variavelArray[i]);
+            System.out.printf(" %s ", variavelArray[i]);
         }
         System.out.printf("]%n");
     }
@@ -54,9 +54,36 @@ public class ArrayUtils {
         return achou;
     }
 
-    public static void clone(int[] arrayInteiroOrigem, int[] arrayInteiroDestino) {
+    public static void clone(String[] arrayInteiroOrigem, String[] arrayInteiroDestino) {
         for (int i = 0; i < arrayInteiroOrigem.length; i++) {
             arrayInteiroDestino[i] = arrayInteiroOrigem[i];
         }
+    }
+
+    public static String[] adicionaArray(String[] arr1, String[] arr2) {
+        int tamanhoTotal = arr1.length + arr2.length;
+        String[] resultado = new String[tamanhoTotal];
+
+        for (int i = 0; i < arr1.length; i++) {
+            resultado[i] = arr1[i];
+        }
+
+        for (int i = 0; i < arr2.length; i++) {
+            resultado[i + arr1.length] = arr2[i];
+        }
+
+        return resultado;
+    }
+
+    public static String[] adicionaElemento(String[] arr, String novaString) {
+        int tamanhoOriginal = arr.length;
+        int novoTamanho = tamanhoOriginal + 1;
+
+        String[] novoArray = new String[novoTamanho];
+
+        ArrayUtils.clone(arr, novoArray);
+        novoArray[novoTamanho - 1] = novaString;
+
+        return novoArray;
     }
 }

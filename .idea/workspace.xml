@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf368b6-030d-45b2-b818-f0e1ff1af242" name="Changes" comment="" />
+    <list default="true" id="cdf368b6-030d-45b2-b818-f0e1ff1af242" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TestCases/ct_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/ct_100.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/ct_1000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/ct_10000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/ct_100000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/ct_1000000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/ct_10004.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/ct_2000000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/MyFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Alien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/DNAcombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/DNAcombinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Research.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/LaboratoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/LaboratoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ArrayUtils.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2UmAAxKfKsODKlEuEGkyMjSlYVP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,9 +56,34 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/willi/Desktop/Projeto/Alien-Research/TestCases",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\willi\Desktop\Projeto\Alien-Research\TestCases" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Alien-Research" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -33,7 +92,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693534246680</updated>
-      <workItem from="1693534247765" duration="1000" />
+      <workItem from="1693534247765" duration="1560000" />
+      <workItem from="1693595158220" duration="617000" />
+      <workItem from="1693934460636" duration="375000" />
+      <workItem from="1694791186834" duration="3413000" />
+      <workItem from="1695044442046" duration="21000" />
+      <workItem from="1695076610865" duration="11249000" />
     </task>
     <servers />
   </component>
